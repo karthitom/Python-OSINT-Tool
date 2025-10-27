@@ -28,6 +28,7 @@ all_found_ip_info = []
 all_found_dns_records = [] 
 scanned_urls = set()
 
+# --- DNS Record Function ---
 def get_dns_records(base_domain):
     """
     Fetches common DNS records (MX and TXT).
@@ -346,4 +347,5 @@ if __name__ == "__main__":
     find_directories(target_url, wordlist)
     
     # 6. Crawling the URL given by user
-    crawl_site(start_url)
+    # --- BUG FIX INGA ---
+    crawl_site(target_url) 
