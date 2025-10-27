@@ -28,8 +28,8 @@ This tool is designed for educational purposes and ethical penetration testing t
 
 1. Clone the repository:
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git)
-    cd YOUR_REPOSITORY
+    git clone https://github.com/karthitom/Python-OSINT-Tool.git
+    cd Python-OSINT-Tool.git
     ```
 
 2.  (Recommended) Create and activate a virtual environment:
